@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desti | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Dekorasi bunga -->
+    <div class="flower-decor flower-top-left">
+      <img src="decorations/atas-kiri.png" alt="" />
+    </div>
+
+    <div class="flower-decor flower-top-right">
+      <img src="decorations/atas-kanan.png" alt="" />
+    </div>
+
+    <div class="flower-decor flower-bottom-left">
+      <img src="decorations/bawah-kiri.png" alt="" />
+    </div>
+
+    <div class="flower-decor flower-bottom-right">
+      <img src="decorations/bawah-kanan.png" alt="" />
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <a href="#home" class="logo">✿ Desti.</a>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero panel" id="home">
+        <div class="hero-content">
+          <span class="eyebrow">✦ Welcome to my portfolio</span>
+          <p class="intro">Hello, I'm</p>
+          <h1>Desti Nur<br />Wahidah</h1>
+          <h2>Web Developer & UI/UX Designer</h2>
+
+          <p class="description">
+            Turning ideas into digital experiences. Let's build something
+            amazing together!
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="button primary">Explore My Work →</a>
+            <a href="#contact" class="button outline">Contact Me</a>
+          </div>
+
+          <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/fotoku.jpeg" alt="Foto profil Desti" />
+          <span class="image-caption">Dream Big,<br />Build Better</span>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about panel" id="about">
+        <div class="section-content">
+          <span class="eyebrow">✦ About Me</span>
+          <h2>More About Me</h2>
+          <p>
+            Hi, I'm Desti Nur Wahidah, a passionate student interested in web
+            development and UI/UX design. I enjoy creating modern and
+            user-friendly digital experiences and exploring new technologies.
+          </p>
+          <a href="#contact" class="button primary">Let's Connect →</a>
+        </div>
+
+        <div class="about-image">
+          <img src="images/fotoku.jpeg" alt="Foto kegiatan Desti" />
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="skills panel" id="skills">
+        <span class="eyebrow">✦ My Skills</span>
+        <h2>My Expertise</h2>
+        <p class="section-description">
+          Technologies and tools I use to build amazing projects.
+        </p>
+
+        <div class="skill-grid">
+          <div class="skill-card">
+            <span>HTML</span>
+            <small>Frontend</small>
+          </div>
+          <div class="skill-card">
+            <span>CSS</span>
+            <small>Frontend</small>
+          </div>
+          <div class="skill-card">
+            <span>JS</span>
+            <small>JavaScript</small>
+          </div>
+          <div class="skill-card">
+            <span>PHP</span>
+            <small>Backend</small>
+          </div>
+          <div class="skill-card">
+            <span>SQL</span>
+            <small>Database</small>
+          </div>
+          <div class="skill-card">
+            <span>Figma</span>
+            <small>UI/UX Design</small>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="projects panel" id="projects">
+        <span class="eyebrow">✦ My Projects</span>
+        <h2>Featured Projects</h2>
+        <p class="section-description">
+          A collection of my work, crafted with passion.
+        </p>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="images/WEB.jpg" alt="Proyek LapTop" />
+
+            <div class="project-info">
+              <span class="tag">Web Development</span>
+              <h3>LapTop</h3>
+              <p>
+                Website rekomendasi laptop berdasarkan kebutuhan dan budget.
+              </p>
+              <a href="#">View Project →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/UI UX.jpg" alt="Proyek MediReminder" />
+
+            <div class="project-info">
+              <span class="tag">Mobile App Concept</span>
+              <h3>MediReminder</h3>
+              <p>Konsep aplikasi pengingat jadwal minum obat.</p>
+              <a href="#">View Project →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact panel" id="contact">
+        <div class="contact-info">
+          <span class="eyebrow">✦ Contact Me</span>
+          <h2>Let's Work Together</h2>
+          <p>
+            Have a project in mind, a question, or just want to say hello? I'd
+            love to hear from you!
+          </p>
+
+          <p>✉ your-email@example.com</p>
+          <p>⌖ Bandar Lampung, Indonesia</p>
+          <p>GitHub · Instagram · LinkedIn</p>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message..." rows="5" required></textarea>
+          <button type="submit" class="button primary">Send Message →</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-logo">✿ Desti.</div>
+      <p>Turning ideas into digital experiences.</p>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <small>© 2026 Desti Nur Wahidah. All rights reserved.</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
